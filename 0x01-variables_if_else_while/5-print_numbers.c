@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main : Entery level
+ * main -  Entery point
  *
- * this function is used to print an intiger number from 0 to 9.
+ * This function is used to print an intiger number from 0 to 9.
  * I have used for loop to do it.
  * Finaly it prints new line.
  *
