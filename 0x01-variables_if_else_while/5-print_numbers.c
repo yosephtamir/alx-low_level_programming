@@ -3,8 +3,9 @@
 /**
  * main : Entery level
  *
- * this function is used to print an intiger number from 0 to 9
- * I have used for loop to do it
+ * this function is used to print an intiger number from 0 to 9.
+ * I have used for loop to do it.
+ * Finaly it prints new line.
  * Return: always 0 (success)
  */
 
