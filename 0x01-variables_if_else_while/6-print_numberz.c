@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entery point
+ * main - Entry point
  *
- * This function is used to print a number from 0 to 10 
- * I have used  for loop for this function
+ * this function prints a numbers starting from 0-10 or zero to ten
+ * in this function i have used for loop
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
