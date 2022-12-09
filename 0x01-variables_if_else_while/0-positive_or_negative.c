@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main function goes here
+ * main - Entry point
  *
  * this function prints random numbers whether they are positive negative or 0
  *
- * then it Returns 0 or success
+ * Return: Always 0 (success)
  */
 int main(void)
 {
