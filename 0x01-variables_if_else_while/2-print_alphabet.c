@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main : Entery point
+ * main -  Entery point
  *
- * this is used to print a - z
+ * this function is used to print a - z.
+ *  and on this code I used for loop and putchar
  *
  * Return: Always 0 (success)
  */
@@ -16,7 +17,7 @@ int main(void)
 	for (i = 'a'; i <= 'z'; ++i)
 	{
 		putchar(i);
-		putchar(b);
 	}
+	putchar(b);
 	return (0);
 }
