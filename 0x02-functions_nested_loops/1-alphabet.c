@@ -3,7 +3,8 @@
 /**
  * main - Entery point
  *
- * This project has two functions the first one is the main function,
+ * description: This project has two functions the first one is 
+ * the main function,
  *  which is excuted first.and the second function isthe function,
  *  used to print an alphabet in lower case following new line.
  *  and in this project I have also used prototyping since I put a function,
@@ -20,6 +21,6 @@ void print_alphabet(void)
 	for (i = 'a'; i <= 'z'; ++i)
 	{
 		_putchar(i);
-		_putchar('\n');
 	}
+		_putchar('\n');
 }
