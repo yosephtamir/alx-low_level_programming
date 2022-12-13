@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_islower(int c) - checks for lowercase
+ *_islower - checks for lowercase
  *
- * c - is an integer which is a mediator
+ * c - is a parameter
  *
  * Return: 1 or 0
  */
