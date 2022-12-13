@@ -1,8 +1,6 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - check the code.
- *
  * this function is used to print a lower case alphabet 10 times using,
  * nested loop. this project has two functions the main function
  * which is excuted first and the print_alphabet_x10 function,
@@ -10,13 +8,6 @@
  * This project has also prototyping, since the function print_alphabet_x10,
  *  is below the main function.
  */
-void print_alphabet_x10(void);
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
 
 void print_alphabet_x10(void)
 {
@@ -27,8 +18,8 @@ void print_alphabet_x10(void)
 	{
 	for (i = 'a'; i <= 'z'; ++i)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar('\n');
+	_putchar('\n');
 	}
 }
