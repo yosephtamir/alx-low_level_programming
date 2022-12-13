@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * int_abs -absolute value
+ * _abs - absolute value
  *
- * return: absolute value
+ * @r: is ascii character for argument
+ *
+ * Return: r, r * (-1) or 0
  */
 
 int _abs(int r)
