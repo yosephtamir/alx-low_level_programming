@@ -3,7 +3,10 @@
 /**
  * 3-islower.c - checks for lowercase character.
  *
+ * parameter or member c is an intiger which is a midiator
+ * 
  * return: 1 if it is lowercase
+ * 
  * return: 0 if it is not lowercase
  */
 
