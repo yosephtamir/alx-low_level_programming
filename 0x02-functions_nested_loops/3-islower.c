@@ -3,7 +3,7 @@
 /**
  *_islower - checks for lowercase
  *
- * c - is a parameter
+ * c - is a return type
  *
  * Return: 1 or 0
  */
