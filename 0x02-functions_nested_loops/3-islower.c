@@ -3,9 +3,9 @@
 /**
  *_islower(int c) - checks for lowercase
  *
- * parameter or member 'c' - is an integer which is a mediator
+ * c - is an integer which is a mediator
  *
- * return value: 1 if it is lowercase or  0 if it is not lowercase
+ * Return: 1 or 0
  */
 
 int _islower(int c)
