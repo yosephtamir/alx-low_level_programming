@@ -19,7 +19,7 @@ int main(void)
 	_putchar(e);
 	_putchar(f);
 	_putchar(g);
-	_putchar('b');
+	_putchar(h);
 	_putchar('\n');
 
 
