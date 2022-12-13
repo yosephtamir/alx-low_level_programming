@@ -10,28 +10,32 @@
 
 int print_last_digit(int r)
 {
-	if (r > 0)
+
+	int i;
+
+	if (r < 0)
 	{
-		int b;
-		b = r % 10;
+		r = r * -1;
+		i = r % 10;
+
+		_putchar(i + '0');
+		return (i);
 		
-		_putchar(b);
-		return (b);
 	}
-	else if (r < 0)
+	else if (r > 0)
 	{
-		int b;
-
-		r = r * (-1);
-		b= r % 10;
-
-		_putchar(b);
-		return (b);
+		i = r % 10;
+		
+		_putchar(i + '0');
+		return (i);
 	}
 	else
 	{
-		_putchar(0);
-		return (0);
+		i = r% 10;
+
+		_putchar(i + '0');
+		return (i);
 	}
+
 }
 
