@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _islower(int c)c - checks for lowercase character.
+ *function  _islower(int c) - checks for lowercase character.
  *
- * parameter or member 'c' is an intiger which is a midiator
+ * parameter or member 'c' - is an intiger which is a midiator
  *
- * return: 1 if it is lowercase or  0 if it is not lowercase
+ * return value: 1 if it is lowercase or  0 if it is not lowercase
  */
 
 int _islower(int c)
