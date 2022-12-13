@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "_putchar.c"
 /**
  * main - Entery point
  *
@@ -9,7 +9,18 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	char a = '_', b = 'p', c = 'u', d = 't', e = 'c', f = 'h', g = 'a';
+	char h = 'r';
+
+	_putchar(a);
+	_putchar(b);
+	_putchar(c);
+	_putchar(d);
+	_putchar(e);
+	_putchar(f);
+	_putchar(g);
+	_putchar(h);
+	_putchar('\n');
 
 	return (0);
 
