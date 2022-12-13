@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entery point
- *
- * description: The project print_alphabet - print alphabet
+ * print_alphabet - print alphabet
  *
  * Return: Always 0 (Success).
  */
