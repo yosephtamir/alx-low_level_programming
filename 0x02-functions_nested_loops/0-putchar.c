@@ -4,7 +4,7 @@
  *
  * This function is used to ptint a word '_putchar' followed by a new line
  *
- * return: always 0 (Success)
+ * return: always 0.
  */
 
 int main(void)
