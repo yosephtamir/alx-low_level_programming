@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include "main.h"
 /**
  * main - Entery point
  *
@@ -19,8 +19,9 @@ int main(void)
 	_putchar(e);
 	_putchar(f);
 	_putchar(g);
-	_putchar(h);
+	_putchar('b');
 	_putchar('\n');
+
 
 	return (0);
 
