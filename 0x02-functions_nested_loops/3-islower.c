@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *function  _islower(int c) - checks for lowercase character.
+ *_islower(int c) - checks for lowercase
  *
- * parameter or member 'c' - is an intiger which is a midiator
+ * parameter or member 'c' - is an integer which is a mediator
  *
  * return value: 1 if it is lowercase or  0 if it is not lowercase
  */
