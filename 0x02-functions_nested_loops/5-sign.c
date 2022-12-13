@@ -5,7 +5,7 @@
  *
  * @n: is an ascii character used for argument
  *
- * return: 0 and 0, 1 and +, or -1 and -
+ * Return: 1, 0 or -1
  */
 
 int print_sign(int n)
