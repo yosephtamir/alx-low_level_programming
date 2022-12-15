@@ -3,7 +3,7 @@
 /**
  * print_diagonal - diagonal line
  *
- * @n: ascii character 
+ * @n: ascii character
  *
  * Return: void.
  */
@@ -11,7 +11,9 @@
 void print_diagonal(int n)
 {
 	int j;
+
 	int k;
+
 	k = 0;
 
 	if (n > 0)
