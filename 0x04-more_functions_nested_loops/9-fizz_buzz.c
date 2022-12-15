@@ -25,15 +25,15 @@ int main(void)
 		}
 		else if (b == 0)
 		{
-			printf("Buzz ");
+			  printf("Buzz ");
+		}
+		else if (i == 100)
+		{
+				printf("Buzz");
 		}
 		else if (a == 0)
 		{
 			printf("Fizz ");
-		}
-		else if (i == 100)
-		{
-			printf("Buzz");
 		}
 		else
 		{
