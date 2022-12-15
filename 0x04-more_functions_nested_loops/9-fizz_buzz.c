@@ -23,13 +23,13 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (b == 0)
-		{
-			printf("Buzz ");
-		}
 		else if (i == 100)
 		{
 			printf("Buzz");
+		}
+		else if (b == 0)
+		{
+			printf("Buzz ");
 		}
 		else if (a == 0)
 		{
