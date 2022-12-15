@@ -34,6 +34,7 @@ int main(void)
 		else if (i == 100)
 		{
 			printf("Buzz");
+		}
 		else
 		{
 			printf("%d ", i);
