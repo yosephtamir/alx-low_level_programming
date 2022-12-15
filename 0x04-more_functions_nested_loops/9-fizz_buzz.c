@@ -14,7 +14,9 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		int a, b;
+
 		a = i % 3;
+
 		b = i % 5;
 
 		if (a == 0 && b == 0)
