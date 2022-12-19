@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print array - prints n elements of array
+ * print_array - prints n elements of array
  *
  * @a: a string
  *
