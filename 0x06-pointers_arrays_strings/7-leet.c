@@ -3,9 +3,9 @@
 /**
  * leet - is used to incode.
  *
- * @b: encoded string.
+ * @str: encoded string.
  *
- * Return: b
+ * Return: str
  */
 char *leet(char *str)
 {
