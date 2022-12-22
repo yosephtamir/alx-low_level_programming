@@ -7,23 +7,22 @@
  *
  * Return: b
  */
-
-char *leet(char *b)
+char *leet(char *str)
 {
-	int i, j;
-	char c[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	int indx1 = 0, indx2;
+	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (b[i])
+	while (str[indx1])
 	{
-		for (j = 0; j <= 7; j++)
+		for (indx2 = 0; indx2 <= 7; indx2++)
 		{
-			if (b[i] == c[j] ||
-			    b[i] - 32 == c[j])
-				b[i] = j + '0';
+			if (str[indx1] == leet[indx2] ||
+			    str[indx1] - 32 == leet[indx2])
+				str[indx1] = indx2 + '0';
 		}
 
-		i++;
+		indx1++;
 	}
 
-	return (b);
+	return (str);
 }
