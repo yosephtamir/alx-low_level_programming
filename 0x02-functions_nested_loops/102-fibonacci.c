@@ -21,4 +21,5 @@ int main(void)
 		sum = num1 + num2;
 	}
 	printf("\n");
+	return (0);
 }
