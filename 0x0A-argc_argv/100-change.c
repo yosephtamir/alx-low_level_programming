@@ -3,7 +3,7 @@
 
 /**
  * change - gets the least number
- * 
+ *
  * @n: coin
  *
  * Return: number of money
@@ -54,7 +54,7 @@ int change(int n)
 
 /**
  * main - prints the minimum number of coins to make change
- * 
+ *
  * @argc: length of an array argv
  * @argv: array pointer
  *
