@@ -18,7 +18,7 @@ char *_strdup(char *str)
 	{
 		k++;
 	}
-	i = (char *) malloc(k * sizeof(char));
+	i = (char *) malloc(k * sizeof(char) + 1);
 
 	if (i == NULL)
 	{
@@ -26,7 +26,7 @@ char *_strdup(char *str)
 	}
 	else if (str != NULL)
 	{
-		while (j < (k + 1))
+		while (j < k)
 		{
 			i[j] = str[j];
 			j++;
@@ -34,5 +34,7 @@ char *_strdup(char *str)
 		return (i);
 	}
 	else
+	{
 		return (NULL);
+	}
 }
