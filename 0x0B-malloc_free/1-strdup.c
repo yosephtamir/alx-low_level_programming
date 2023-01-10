@@ -26,7 +26,7 @@ char *_strdup(char *str)
 	}
 	else if (str != NULL)
 	{
-		while (j < k)
+		while (j < (k + 1))
 		{
 			i[j] = str[j];
 			j++;
