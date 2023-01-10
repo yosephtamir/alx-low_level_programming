@@ -4,8 +4,10 @@
 /**
  * alloc_grid - is used to allocate grid
  *
- * @widhth: is width of the array
+ * @width: is width of the array
  * @height: of the array
+ *
+ * Return: array or null
  */
 
 int **alloc_grid(int width, int height)
