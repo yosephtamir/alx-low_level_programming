@@ -42,12 +42,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		ptr[k] = s1[k];
 		k++;
 	}
-	while (l < (m - i - 1))
+	while (l < (m - i))
 	{
 		ptr[k] = s2[l];
 		l++;
 		k++;
 	}
+	ptr[k] = '\0';
 	return (ptr);
 }
 
