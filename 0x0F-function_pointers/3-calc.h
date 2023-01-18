@@ -1,5 +1,12 @@
 #ifndef CALC_H
 #define CALC_H
+
+/**
+ * struct op - is used to to perfom the oprtn
+ * @op: is a char array
+ * @f: is a function
+ */
+
 typedef struct op
 {
 	char *op;
