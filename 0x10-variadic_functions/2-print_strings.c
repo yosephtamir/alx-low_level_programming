@@ -32,7 +32,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			return;
 		}
 
-		if (i == n - 1)
+		else if (i == n - 1)
 			printf("%s\n", ab);
 		else
 		{
