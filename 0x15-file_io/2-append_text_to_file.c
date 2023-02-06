@@ -5,7 +5,7 @@
  * @filename: is the file name
  * @text_content: is the line of text to be added
  * Return: 0 or opn
- */ 
+ */
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int opn, wrt, hoj = 0;
