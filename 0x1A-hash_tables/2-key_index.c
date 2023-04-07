@@ -1,4 +1,4 @@
-#include "hash_table.h"
+#include "hash_tables.h"
 /**
  * key_index - is used to give an index of a key
  * @key: is the key to be assigned
