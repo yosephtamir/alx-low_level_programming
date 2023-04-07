@@ -11,7 +11,6 @@ hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *createHash = NULL;
 	hash_node_t **createNode = NULL;
-	unsigned long int i;
 
 
 	if (size == 0)
@@ -27,10 +26,8 @@ hash_table_t *hash_table_create(unsigned long int size)
 	if (createNode == NULL)
 		return (NULL);
 
-	for (i = 0; i < size; i++)
-		createNode[i] = NULL;
-
 	createHash->size = size;
 	createHash->array = createNode;
+
 	return (createHash);
 }
