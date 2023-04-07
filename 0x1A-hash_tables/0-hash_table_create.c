@@ -28,6 +28,6 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	createHash->size = size;
 	createHash->array = createNode;
-
+	free(createNode);
 	return (createHash);
 }
